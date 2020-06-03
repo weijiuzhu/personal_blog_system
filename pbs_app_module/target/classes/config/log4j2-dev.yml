@@ -1,0 +1,49 @@
+# 生产环境日志
+Configuration:
+  status: DEBUG
+
+  Properties: # 定义全局变量
+    Property:
+      - name: console  # 定义日志级别
+        value: DEBUG
+      - name: log.path
+        value: ./logs
+      - name: project.name
+        value: bm
+      - name: log.format
+        value: "%d{yyyy-MM-dd HH:mm:ss | SSS} | %4p  %t (%F:%L) - %m%n"
+      - name: log.size
+        value: "10000MB"
+
+  Appenders:
+    Console:
+      name: CONSOLE
+      target: SYSTEM_OUT
+      ThresholdFilter:
+        level: ${sys:console}
+        onMatch: ACCEPT
+        onMismatch: DENY
+      PatternLayout:
+        pattern: ${log.format}
+
+
+    RollingFile: # 输出到文件，超过10000 MB归档
+      - name: ROLLING_FILE
+        ignoreExceptions: false
+        fileName: ${log.path}/${project.name}.log
+        filePattern: "${log.path}/$${date:yyyy-MM-dd}/${project.name}-%d{yyyy-MM-dd}-%i.log"
+        PatternLayout:
+          pattern: ${log.format}
+        Policies:
+          SizeBasedTriggeringPolicy:
+            size: ${log.size}
+        DefaultRolloverStrategy:
+          max: 1000
+
+
+  Loggers:
+    Root:
+      level: ${sys:console}
+      AppenderRef:
+        - ref: CONSOLE
+        - ref: ROLLING_FILE

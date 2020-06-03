@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <parent>
+        <groupId>com.mangguo</groupId>
+        <artifactId>personal_blog_system</artifactId>
+        <version>0.0.1</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+
+    <artifactId>pbs_app_module</artifactId>
+    <description>主启动模块</description>
+
+    <dependencies>
+        <!-- 测试模块 -->
+        <dependency>
+            <groupId>com.mangguo</groupId>
+            <artifactId>pbs_test_module</artifactId>
+            <version>0.0.1</version>
+        </dependency>
+        <!-- 实时通信模块 -->
+        <dependency>
+            <groupId>com.mangguo</groupId>
+            <artifactId>pbs_real_time_communication</artifactId>
+            <version>0.0.1</version>
+        </dependency>
+    </dependencies>
+</project>

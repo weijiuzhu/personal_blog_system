@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pbs_app_module" />
+        <module name="personal_blog_system" />
+        <module name="pbs_real_time_communication" />
+        <module name="pbs_test_module" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pbs_app" target="1.8" />
+      <module name="pbs_app_module" target="1.8" />
+      <module name="pbs_real_time_communication" target="1.8" />
+      <module name="pbs_test_module" target="1.8" />
+      <module name="personal_blog_system" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="pbs_app" options="-parameters" />
+      <module name="pbs_app_module" options="-parameters" />
+      <module name="pbs_real_time_communication" options="-parameters" />
+      <module name="pbs_test_module" options="-parameters" />
+      <module name="personal_blog_system" options="-parameters" />
+    </option>
+  </component>
+</project>
