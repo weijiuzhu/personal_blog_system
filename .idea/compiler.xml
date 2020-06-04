@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="pbs_app_module" />
+        <module name="personal_blog_system" />
         <module name="pbs_real_time_communication" />
         <module name="pbs_test_module" />
       </profile>

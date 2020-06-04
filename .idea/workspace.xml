@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c75bcdcc-dd65-4ad3-adb7-6ab236928db9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pbs_real_time_communication/src/main/java/com/mangguo/PbsRealTimeCommunication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pbs_test_module/src/main/java/com/mangguo/PbsTestModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pbs_test_module/src/main/java/com/mangguo/StartTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pbs_real_time_communication/src/main/java/com/mangguo/start/NettyServerStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/pbs_real_time_communication/src/main/java/com/mangguo/start/NettyServerStart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pbs_test_module/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pbs_test_module/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pbs_test_module/src/main/java/com/mangguo/PbsTestModuleApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pbs_test_module/src/test/java/com/mangguo/PbsTestModuleApplicationTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,6 +17,20 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -118,9 +138,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PbsRealTimeCommunication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="pbs_real_time_communication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mangguo.PbsRealTimeCommunication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PbsRealTimeCommunicationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="pbs_real_time_communication" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.mangguo.PbsRealTimeCommunicationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PbsTestModule" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="pbs_test_module" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mangguo.PbsTestModule" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -174,7 +208,7 @@
       <workItem from="1591181216032" duration="21000" />
       <workItem from="1591230706957" duration="4268000" />
       <workItem from="1591260038469" duration="4813000" />
-      <workItem from="1591264942089" duration="507000" />
+      <workItem from="1591264942089" duration="1401000" />
     </task>
     <task id="LOCAL-00001" summary="1，netty服务端模块添加">
       <created>1591233221591</created>
@@ -197,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591263858185</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1，改造，添加多线程启动实时时间">
+      <created>1591265478039</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1591265478039</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

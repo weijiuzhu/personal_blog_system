@@ -24,7 +24,7 @@ public class NettyServerStart implements ApplicationRunner{
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
-        this.startTime();
+       // this.startTime();
         nettyService.startNetty();
 
     }
