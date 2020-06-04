@@ -34,7 +34,7 @@ public class NettyService {
                     .channel(NioServerSocketChannel.class)
                     .childHandler(messageHandle)
                     .localAddress(9999);
-            System.out.println("Netty客户端启动完毕。。。");
+            System.out.println(Thread.currentThread().getName() + "Netty客户端启动完毕。。。");
             ChannelFuture sync = serverBootstrap.bind().sync();
             sync.channel().closeFuture().sync();
         } catch (Exception e){

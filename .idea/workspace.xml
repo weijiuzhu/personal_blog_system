@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c75bcdcc-dd65-4ad3-adb7-6ab236928db9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pbs_real_time_communication/src/main/java/com/mangguo/handle/MessageHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pbs_real_time_communication/src/main/java/com/mangguo/start/NettyServerStart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pbs_app_module/src/main/resources/config/log4j2-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pbs_app_module/src/main/resources/config/log4j2-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pbs_app_module/target/classes/config/log4j2-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pbs_app_module/target/classes/config/log4j2-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pbs_real_time_communication/src/main/java/com/mangguo/service/NettyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pbs_real_time_communication/src/main/java/com/mangguo/service/NettyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pbs_real_time_communication/src/main/java/com/mangguo/start/NettyServerStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/pbs_real_time_communication/src/main/java/com/mangguo/start/NettyServerStart.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +44,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../backstage_management" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -171,8 +166,17 @@
       <workItem from="1591172528451" duration="8184000" />
       <workItem from="1591181121790" duration="61000" />
       <workItem from="1591181216032" duration="21000" />
-      <workItem from="1591230706957" duration="2291000" />
+      <workItem from="1591230706957" duration="4268000" />
+      <workItem from="1591260038469" duration="2600000" />
     </task>
+    <task id="LOCAL-00001" summary="1，netty服务端模块添加">
+      <created>1591233221591</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591233221592</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,5 +194,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1，netty服务端模块添加" />
+    <option name="LAST_COMMIT_MESSAGE" value="1，netty服务端模块添加" />
   </component>
 </project>
