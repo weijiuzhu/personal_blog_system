@@ -5,7 +5,7 @@ Configuration:
   Properties: # 定义全局变量
     Property:
       - name: console  # 定义日志级别
-        value: DEBUG
+        value: INFO
       - name: log.path
         value: ./logs
       - name: project.name
