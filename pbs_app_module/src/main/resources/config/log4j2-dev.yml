@@ -11,7 +11,7 @@ Configuration:
       - name: project.name
         value: personal_blog
       - name: log.format
-        value: "%d{yyyy-MM-dd HH:mm:ss | SSS} | %4p  %t (%F:%L) - %m%n"
+        value: "%d{yyyy-MM-dd HH:mm:ss | SSS} | %4p - [%t] - (%F:%L) - %m%n"
       - name: log.size
         value: "10000MB"
 
